@@ -1,0 +1,69 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+*.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+.turbo/
+
+# Testing
+coverage/
+.nyc_output/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+
+# Temporary files
+tmp/
+*.tmp
+
+# npm cache
+.npm/
+
+# yarn cache
+.yarn/
+
+# pnpm cache
+.pnpm-store/
+
+# typescript
+*.tsbuildinfo
+
+# next.js
+.next/
+out/
+
+# nuxt.js
+.nuxt/
+dist/
+.nitro/
+
+# gatsby
+.cache/
+public/
+gatsby-node.js
+gatsby-config.js
+
+# vite
+dist/
+.vite/
