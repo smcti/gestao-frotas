@@ -8,7 +8,7 @@ RUN npm install
 
 COPY . .
 
-ARG VITE_API_URL
+ARG VITE_API_URL=https://gestao-frotas-server-192975768725.southamerica-east1.run.app/api
 ENV VITE_API_URL=$VITE_API_URL
 
 RUN npm run build
